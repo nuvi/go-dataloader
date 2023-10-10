@@ -128,9 +128,14 @@ github.com/morikuni/aec
 # github.com/nuvi/go-dockerdb v0.0.0-20230227224549-1fcd59c208de
 ## explicit; go 1.19
 github.com/nuvi/go-dockerdb
-# github.com/nuvi/unicycle v0.4.5
+# github.com/nuvi/unicycle v0.6.3
 ## explicit; go 1.20
-github.com/nuvi/unicycle
+github.com/nuvi/unicycle/channels
+github.com/nuvi/unicycle/defaults
+github.com/nuvi/unicycle/maps
+github.com/nuvi/unicycle/promises
+github.com/nuvi/unicycle/sets
+github.com/nuvi/unicycle/slices
 # github.com/opencontainers/go-digest v1.0.0
 ## explicit; go 1.13
 github.com/opencontainers/go-digest
