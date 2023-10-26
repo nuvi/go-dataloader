@@ -128,11 +128,12 @@ github.com/morikuni/aec
 # github.com/nuvi/go-dockerdb v0.0.0-20230227224549-1fcd59c208de
 ## explicit; go 1.19
 github.com/nuvi/go-dockerdb
-# github.com/nuvi/unicycle v0.6.3
+# github.com/nuvi/unicycle v0.7.2
 ## explicit; go 1.20
 github.com/nuvi/unicycle/channels
 github.com/nuvi/unicycle/defaults
 github.com/nuvi/unicycle/maps
+github.com/nuvi/unicycle/multithread
 github.com/nuvi/unicycle/promises
 github.com/nuvi/unicycle/sets
 github.com/nuvi/unicycle/slices

@@ -116,8 +116,8 @@ github.com/morikuni/aec v1.0.0/go.mod h1:BbKIizmSmc5MMPqRYbxO4ZU0S0+P200+tUnFx7P
 github.com/mrunalp/fileutils v0.5.0/go.mod h1:M1WthSahJixYnrXQl/DFQuteStB1weuxD2QJNHXfbSQ=
 github.com/nuvi/go-dockerdb v0.0.0-20230227224549-1fcd59c208de h1:kUd69qWLw34GSe4d9DbBcJkzpUXiw0GggCR4IvcoE3A=
 github.com/nuvi/go-dockerdb v0.0.0-20230227224549-1fcd59c208de/go.mod h1:BwbpnQ4AsLI7eJl/Qa4qZTfkk8at/nUEmS/XmF0fNxE=
-github.com/nuvi/unicycle v0.6.3 h1:m7bl53CvTFTBoBWtHTZ6PCXGAeASPRQ5lUiL0k+W0uA=
-github.com/nuvi/unicycle v0.6.3/go.mod h1:BEiVowCkLbk5BAgqli5lwrq5Wi8Oa1f8NGNfWSQQ7i4=
+github.com/nuvi/unicycle v0.7.2 h1:kjkaO+24MNSlVfsOk1pDsAIE7dj8uTo+qMKQSuv/91I=
+github.com/nuvi/unicycle v0.7.2/go.mod h1:BEiVowCkLbk5BAgqli5lwrq5Wi8Oa1f8NGNfWSQQ7i4=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.1.0-rc2 h1:2zx/Stx4Wc5pIPDvIxHXvXtQFW/7XWJGmnM7r3wg034=

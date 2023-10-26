@@ -3,8 +3,8 @@ package dataloader
 import (
 	"context"
 
-	"github.com/nuvi/unicycle/channels"
 	"github.com/nuvi/unicycle/maps"
+	"github.com/nuvi/unicycle/multithread"
 	"github.com/nuvi/unicycle/promises"
 )
 
@@ -92,7 +92,7 @@ func (batcher *QueryBatcher[KEY_TYPE, VALUE_TYPE]) batchRequests(maxBatchSize in
 }
 
 func (batcher *QueryBatcher[KEY_TYPE, VALUE_TYPE]) makeRequests(getter Getter[KEY_TYPE, VALUE_TYPE], maxConcurrentBatches int) {
-	channels.ChannelForEachMultithread(batcher.ready, func(btch batch[KEY_TYPE, VALUE_TYPE]) {
+	multithread.ChannelForEachMultithread(batcher.ready, func(btch batch[KEY_TYPE, VALUE_TYPE]) {
 		defer func() {
 			if r := recover(); r != nil {
 				btch.rejectAll(GetterPanicError{recovered: r})
