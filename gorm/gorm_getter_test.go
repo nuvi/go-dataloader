@@ -6,7 +6,7 @@ import (
 
 	"github.com/nuvi/go-dataloader"
 	"github.com/nuvi/go-dockerdb"
-	"github.com/nuvi/unicycle/channels"
+	"github.com/nuvi/unicycle/multithread"
 	"github.com/nuvi/unicycle/promises"
 	"github.com/nuvi/unicycle/sets"
 	"github.com/stretchr/testify/assert"
@@ -90,7 +90,7 @@ func TestGormGetter(t *testing.T) {
 	_, err = gormLoader.Load("n/a")
 	assert.ErrorIs(t, err, dataloader.ErrMissingResponse)
 
-	channels.ForEachMultithread([]TestTable{
+	multithread.ForEachMultithread([]TestTable{
 		item1,
 		item2,
 		item3,

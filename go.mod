@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/nuvi/go-dockerdb v0.0.0-20230227224549-1fcd59c208de
-	github.com/nuvi/unicycle v0.6.3
+	github.com/nuvi/unicycle v0.7.2
 	github.com/stretchr/testify v1.8.2
 	gorm.io/driver/postgres v1.5.2
 	gorm.io/gorm v1.25.1
